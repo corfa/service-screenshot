@@ -5,7 +5,8 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class PasswordHasher {
-    private static final int BCRYPT_WORKLOAD = 12;
+
+    public static final int BCRYPT_WORKLOAD = 12;
 
 
     public static String hashPassword(String password) {
